@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleKeyValueStore", "SimpleKeyValueStore\SimpleKeyValueStore.csproj", "{1856742B-DF27-43C2-88E2-7C760713AD45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleKeyValueStore.PCL", "SimpleKeyValueStore.PCL\SimpleKeyValueStore.PCL.csproj", "{5B85F4BE-A35A-4593-BE5B-5E486471B1CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1856742B-DF27-43C2-88E2-7C760713AD45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1856742B-DF27-43C2-88E2-7C760713AD45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1856742B-DF27-43C2-88E2-7C760713AD45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1856742B-DF27-43C2-88E2-7C760713AD45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B85F4BE-A35A-4593-BE5B-5E486471B1CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B85F4BE-A35A-4593-BE5B-5E486471B1CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B85F4BE-A35A-4593-BE5B-5E486471B1CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B85F4BE-A35A-4593-BE5B-5E486471B1CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
