@@ -7,6 +7,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleKeyValueStore", "Simp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleKeyValueStore.PCL", "SimpleKeyValueStore.PCL\SimpleKeyValueStore.PCL.csproj", "{5B85F4BE-A35A-4593-BE5B-5E486471B1CE}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuildTool", "BuildTool", "{C39EE41E-5CBB-4039-9E8A-128004E6E757}"
+	ProjectSection(SolutionItems) = preProject
+		BuildTool\NuGet.exe = BuildTool\NuGet.exe
+		BuildTool\pack.bat = BuildTool\pack.bat
+		BuildTool\SimpleKeyValueStore.nuspec = BuildTool\SimpleKeyValueStore.nuspec
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
