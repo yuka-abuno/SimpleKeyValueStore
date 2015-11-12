@@ -14,7 +14,7 @@ namespace SimpleKeyValueStore
         {
             DataName = typeof (TValue).FullName;
             DirectoryPath = Path.Combine(baseDirectoryPath, DataName);
-            if (Directory.Exists(DirectoryPath))
+            if (!Directory.Exists(DirectoryPath))
             {
                 Directory.CreateDirectory(DirectoryPath);
             }
